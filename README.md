@@ -1,2 +1,2 @@
-# giant-module-biolerplate
+# giant-module-boilerplate
 Module boilerplate for GiantJS-based applications
