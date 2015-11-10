@@ -1,2 +1,4 @@
-# giant-module-boilerplate
-Module boilerplate for GiantJS-based applications
+Giant Project Module
+====================
+
+This is a brand-new module in your Giant project.
