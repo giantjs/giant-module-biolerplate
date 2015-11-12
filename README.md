@@ -7,10 +7,13 @@ To set things up:
 
 1. Set the correct module name & description in `package.json`, add & remove dependencies and package attributes as needed.
     - Add intra-project dependencies as optional.
+    - Add current module as optional dependency to dependents, eg. the `application` module.
 2. Add / remove Grunt tasks as needed in `Gruntfile.js`.
 3. Change module namespace (`$module` by default) in `src/namespace.js` and `src/exports.js`.
-4. Add dependencies to `karma.conf.js`.
-5. As you go along, add source files to `manifest.json`.
+4. Add custom dependencies to `karma.conf.js`.
+5. Rename sample class from `ModuleClass`.
+6. Remove TODOs.
+7. As you go along, add source files to `manifest.json`.
 
 Couple of notes:
 

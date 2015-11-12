@@ -3,7 +3,7 @@
     "assets": {
       "js": [
         "src/namespace.js",
-
+        "src/ModuleClass.def.js",
         "src/exports.js"
       ]
     }

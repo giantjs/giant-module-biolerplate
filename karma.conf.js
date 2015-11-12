@@ -11,7 +11,29 @@ module.exports = function (config) {
 
         // list of files / patterns to load in the browser
         files: [
-            // TODO: Add module dependencies here.
+            // required by PhantomJS
+            "node_modules/phantomjs-function-bind-polyfill/index.js",
+
+            // TODO: Remove unused dependencies.
+            "node_modules/giant-assertion/lib/giant-assertion.js",
+            "node_modules/giant-oop/lib/giant-oop.js",
+            "config/giant-oop-test.config.js",
+            "node_modules/q/q.js",
+            "node_modules/giant-utils/lib/giant-utils.js",
+            "node_modules/giant-data/lib/giant-data.js",
+            "node_modules/giant-table/lib/giant-table.js",
+            "node_modules/giant-event/lib/giant-event.js",
+            "node_modules/giant-templating/lib/giant-templating.js",
+            "node_modules/giant-entity/lib/giant-entity.js",
+            "node_modules/giant-routing/lib/giant-routing.js",
+            "node_modules/giant-i18n/lib/giant-i18n.js",
+            "node_modules/jquery/dist/jquery.js",
+            "node_modules/giant-transport/lib/giant-transport.js",
+            "node_modules/giant-widget/lib/giant-widget.js",
+            "node_modules/giant-common-widgets/lib/giant-common-widgets.js",
+            "node_modules/giant-asset/lib/giant-asset.js",
+
+            // TODO: Place additional module dependencies here.
             // ...
 
             'src/namespace.js',
