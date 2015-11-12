@@ -4,7 +4,6 @@
   "description": "Description of your project module",
   "private": true,
   "dependencies": {
-    "giant": "0.2.0",
     "giant-assertion": "0.2.0",
     "giant-common-widgets": "0.2.0",
     "giant-data": "0.2.0",
