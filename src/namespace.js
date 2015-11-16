@@ -13,8 +13,7 @@ var $assertion = $assertion || require('giant-assertion'),
     $transport = $transport || require('giant-transport'),
     $utils = $utils || require('giant-utils'),
     $widget = $widget || require('giant-widget'),
-    jQuery = jQuery || require('jquery'),
-    Q = Q || require('q');
+    jQuery = jQuery || require('jquery');
 
 /**
  * TODO: Rename this to your namespace.
