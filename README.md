@@ -3,6 +3,8 @@ Giant Project Module
 
 This is a brand-new module in your Giant project.
 
+Stability: **UNSTABLE** (In development)
+
 To set things up:
 
 1. Set the correct module name & description in `package.json`, add & remove dependencies and package attributes as needed.
